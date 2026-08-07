@@ -4,7 +4,7 @@ import Observation
 // ViewModel
 @Observable
 class ChatsViewModel {
-    var chats: [ChatPreview] = []
+    var chats: [ChatItem] = []
     var isLoading: Bool = false
     var errorMessage: String? = nil
 

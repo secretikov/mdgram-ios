@@ -19,7 +19,7 @@ struct TextEntity: Equatable {
     let type: TextEntityType
 }
 
-struct Message: Identifiable {
+struct MessageItem: Identifiable {
     let id: Int64
     let text: String
     let isMine: Bool

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MD3MessageBubbleView: View {
-    let message: Message
+    let message: MessageItem
 
     var body: some View {
         HStack {

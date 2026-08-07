@@ -59,7 +59,7 @@ struct MD3ChatListView: View {
 
 // Заглушка строки чата
 struct MD3ChatRow: View {
-    let chat: ChatPreview
+    let chat: ChatItem
 
     var body: some View {
         HStack(spacing: 16) {
