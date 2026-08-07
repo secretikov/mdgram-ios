@@ -11,8 +11,8 @@ struct MD3MessageBubbleView: View {
                 .font(.system(size: 16, weight: .regular, design: .default))
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
-                .foregroundColor(message.isMine ? MD3Theme.onPrimaryContainer : MD3Theme.onSurfaceVariant)
-                .background(message.isMine ? MD3Theme.primaryContainer : MD3Theme.surfaceVariant)
+                .foregroundColor(message.isMine ? MD3ColorScheme.onPrimaryContainer : MD3ColorScheme.onSecondaryContainer)
+                .background(message.isMine ? MD3ColorScheme.primaryContainer : MD3ColorScheme.secondaryContainer)
                 // Асимметричные углы (хвостик сообщения)
                 .clipShape(
                     .rect(

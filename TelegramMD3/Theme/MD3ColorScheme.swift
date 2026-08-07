@@ -14,7 +14,7 @@ extension Color {
 }
 
 // MD3 Палитра
-struct MD3Theme {
+struct MD3ColorScheme {
     static let primary = Color.dynamic(light: 0x6750A4, dark: 0xD0BCFF)
     static let onPrimary = Color.dynamic(light: 0xFFFFFF, dark: 0x381E72)
 
@@ -31,4 +31,9 @@ struct MD3Theme {
     static let onSurfaceVariant = Color.dynamic(light: 0x49454F, dark: 0xCAC4D0)
 
     static let outline = Color.dynamic(light: 0x79747E, dark: 0x938F99)
+
+    static let error = Color.dynamic(light: 0xB3261E, dark: 0xF2B8B5)
+    static let onError = Color.dynamic(light: 0xFFFFFF, dark: 0x601410)
+    static let errorContainer = Color.dynamic(light: 0xF9DEDC, dark: 0x8C1D18)
+    static let onErrorContainer = Color.dynamic(light: 0x410E0B, dark: 0xF9DEDC)
 }
